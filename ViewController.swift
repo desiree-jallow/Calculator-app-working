@@ -26,6 +26,7 @@ class ViewController: UIViewController {
          guard
                 let text = computingLabel.text,
                 !text.isEmpty
+            //text != "0"
             else {
                 return
             }
@@ -69,54 +70,16 @@ class ViewController: UIViewController {
         computingLabel.text = "0"
     }
     
-    @IBAction func decimalButtonPressed(_ sender: RoundedButton) {
-        symbolPressed(symbol: ".")
+    @IBAction func numberButtonPressed(_ sender: RoundedButton) {
+        if let title = sender.currentTitle {
+        symbolPressed(symbol: title)
+        }
     }
     
     
-    @IBAction func oneButtonPressed(_ sender: RoundedButton) {
-         symbolPressed(symbol: "1")
-    }
     
-    @IBAction func twoButtonPressed(_ sender: RoundedButton) {
-        symbolPressed(symbol: "2")
-    }
-    
-    @IBAction func threeButtonPressed(_ sender: RoundedButton) {
-        symbolPressed(symbol: "3")
-    }
-    
-    
-    @IBAction func fourButtonPressed(_ sender: RoundedButton) {
-        symbolPressed(symbol: "4")
-    }
-    
-    @IBAction func fiveButtonPressed(_ sender: RoundedButton) {
-        symbolPressed(symbol: "5")
-    }
-    
-    @IBAction func sixButtonPressed(_ sender: RoundedButton) {
-        symbolPressed(symbol: "6")
-    }
-    
-    @IBAction func sevenButtonPressed(_ sender: RoundedButton) {
-        symbolPressed(symbol: "7")
-    }
-    
-    @IBAction func eightButtonPressed(_ sender: RoundedButton) {
-        symbolPressed(symbol: "8")
-    }
-    
-    @IBAction func nineButtonPressed(_ sender: RoundedButton) {
-        symbolPressed(symbol: "9")
-    }
-    
-    @IBAction func zeroButtonPressed(_ sender: RoundedButton) {
-        symbolPressed(symbol: "0")
-    }
     func symbolPressed(symbol: String) {
-        
-        
+     
         if performingMath == true {
             computingLabel.text = ""
             computingLabel.text = computingLabel.text! + symbol
@@ -129,14 +92,20 @@ class ViewController: UIViewController {
             computingLabel.text = computingLabel.text! + symbol
             secondNumber = Double(computingLabel.text!)!
         }
-        
+
     }
     
     func operationPressed(myOperation: String) {
-        firstNumber = Double(computingLabel.text!)!
-        operation = myOperation
-        computingLabel.text = operation
-        performingMath = true
+       
+        if let label = computingLabel.text,
+            let doubleLabel = Double(label) {
+                firstNumber = doubleLabel
+                operation = myOperation
+                computingLabel.text = operation
+                performingMath = true
+        }
+        
+       
     }
     
 }
