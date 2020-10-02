@@ -17,15 +17,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D731DB2D24745EAD009FC8AD /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RoundedButton.swift; path = "/Users/desiree/Desktop/iOS Projects/Calculator app/RoundedButton.swift"; sourceTree = "<absolute>"; };
+		D731DB2D24745EAD009FC8AD /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RoundedButton.swift; path = "/Users/desiree/Google Drive/iOS Projects/Calculator app/RoundedButton.swift"; sourceTree = "<absolute>"; };
 		D735937424917C15002F55BD /* Assets2 .xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets2 .xcassets"; sourceTree = "<group>"; };
 		D786856D246CA12100B2AEC2 /* Calculator app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calculator app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7868570246CA12100B2AEC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "/Users/desiree/Desktop/iOS Projects/Calculator app/AppDelegate.swift"; sourceTree = "<absolute>"; };
-		D7868572246CA12100B2AEC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = "/Users/desiree/Desktop/iOS Projects/Calculator app/SceneDelegate.swift"; sourceTree = "<absolute>"; };
-		D7868574246CA12100B2AEC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "/Users/desiree/Desktop/iOS Projects/Calculator app/ViewController.swift"; sourceTree = "<absolute>"; };
+		D7868570246CA12100B2AEC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "/Users/desiree/Google Drive/iOS Projects/Calculator app/AppDelegate.swift"; sourceTree = "<absolute>"; };
+		D7868572246CA12100B2AEC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = "/Users/desiree/Google Drive/iOS Projects/Calculator app/SceneDelegate.swift"; sourceTree = "<absolute>"; };
+		D7868574246CA12100B2AEC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "/Users/desiree/Google Drive/iOS Projects/Calculator app/ViewController.swift"; sourceTree = "<absolute>"; };
 		D7868577246CA12100B2AEC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D786857C246CA12500B2AEC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D786857E246CA12500B2AEC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D786857E246CA12500B2AEC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +97,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = Desiree;
 				TargetAttributes = {
 					D786856C246CA12100B2AEC2 = {
@@ -157,7 +157,7 @@
 				D7868577246CA12100B2AEC2 /* Base */,
 			);
 			name = Main.storyboard;
-			path = "/Users/desiree/Desktop/iOS Projects/Calculator app";
+			path = "/Users/desiree/Google Drive/iOS Projects/Calculator app";
 			sourceTree = "<absolute>";
 		};
 		D786857B246CA12500B2AEC2 /* LaunchScreen.storyboard */ = {
@@ -197,6 +197,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -257,6 +258,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
