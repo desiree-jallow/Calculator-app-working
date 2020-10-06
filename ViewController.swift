@@ -115,46 +115,51 @@ class ViewController: UIViewController {
         symbolPressed(number: title)
         }
     }
-    
-    func symbolPressed(number: String) {
-     //Check if an operation has been pressed
-        if performingMath == true || computingLabel.text == "0"  {
-            //Empty label and set label to number entered
-            computingLabel.text = ""
-            computingLabel.text = number
-    
-            //If text entered can be converted to a double assign it to second number
-            if let text = computingLabel.text , let doubleNumber = Double(text) {
-                secondNumber = doubleNumber
-            }
-            
-            performingMath = false
-            
-        //If operation has not been pressed set label to whatever is currently in the label plus number that has been pressed
-        } else {
-            if let text = computingLabel.text {
-                computingLabel.text = text + number
-            }
-            //If number can be converted to a double assign it to second number
-            if let text = computingLabel.text , let doubleNumber = Double(text) {
-                secondNumber = doubleNumber
-            }
-        }
-    }
-    
-    func operationPressed(myOperation: Operation) {
-        //enable equal button when operation is pressed
-        equalButton.isEnabled = true
-        
-        //Check if entered text can be converted to double
-        if let label = computingLabel.text, let doubleLabel = Double(label) {
-            //Set first number, operation, and label
-            firstNumber = doubleLabel
-            operation = myOperation
-            computingLabel.text = operation.rawValue
-            performingMath = true
-            
-        }
-    }
 }
+    
+extension ViewController {
+        func symbolPressed(number: String) {
+         //Check if an operation has been pressed
+            if performingMath == true || computingLabel.text == "0"  {
+                //Empty label and set label to number entered
+                computingLabel.text = ""
+                computingLabel.text = number
+        
+                //If text entered can be converted to a double assign it to second number
+                if let text = computingLabel.text , let doubleNumber = Double(text) {
+                    secondNumber = doubleNumber
+                }
+                
+                performingMath = false
+                
+            //If operation has not been pressed set label to whatever is currently in the label plus number that has been pressed
+            } else {
+                if let text = computingLabel.text {
+                    computingLabel.text = text + number
+                }
+                //If number can be converted to a double assign it to second number
+                if let text = computingLabel.text , let doubleNumber = Double(text) {
+                    secondNumber = doubleNumber
+                }
+            }
+        }
+        
+        func operationPressed(myOperation: Operation) {
+            //enable equal button when operation is pressed
+            equalButton.isEnabled = true
+            
+            //Check if entered text can be converted to double
+            if let label = computingLabel.text, let doubleLabel = Double(label) {
+                //Set first number, operation, and label
+                firstNumber = doubleLabel
+                operation = myOperation
+                computingLabel.text = operation.rawValue
+                performingMath = true
+                
+            }
+        }
+    }
+    
+   
+
 
