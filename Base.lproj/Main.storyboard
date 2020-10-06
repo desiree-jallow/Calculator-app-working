@@ -54,7 +54,7 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="additionPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="suU-Pv-6Q5"/>
+                                                    <action selector="operationPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LGx-ne-fnu"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -103,7 +103,7 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="subtractionPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HCz-yD-a94"/>
+                                                    <action selector="operationPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X3i-2n-D20"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -152,7 +152,7 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="multiplicationPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="waB-aO-AxH"/>
+                                                    <action selector="operationPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qo8-1e-pWp"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -201,7 +201,7 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="divisionPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R9g-0f-rri"/>
+                                                    <action selector="operationPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cid-iC-YoQ"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -239,7 +239,7 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="numberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JCJ-Xe-9PX"/>
+                                                    <action selector="periodPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LlD-LB-Xfp"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="5" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dND-yF-Tkl" customClass="RoundedButton" customModule="Calculator_app" customModuleProvider="target">
@@ -273,6 +273,7 @@
                     <connections>
                         <outlet property="computingLabel" destination="gys-Ye-GFN" id="iqB-GL-BOP"/>
                         <outlet property="equalButton" destination="dND-yF-Tkl" id="LkG-3Z-tWQ"/>
+                        <outlet property="periodButton" destination="1uE-aO-CXr" id="B1X-jX-KG9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
