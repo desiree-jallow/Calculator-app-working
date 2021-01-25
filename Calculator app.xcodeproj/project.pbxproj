@@ -17,15 +17,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D731DB2D24745EAD009FC8AD /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RoundedButton.swift; path = "/Users/desiree/Google Drive/iOS Projects/Calculator app/RoundedButton.swift"; sourceTree = "<absolute>"; };
-		D735937424917C15002F55BD /* Assets2 .xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets2 .xcassets"; sourceTree = "<group>"; };
+		D731DB2D24745EAD009FC8AD /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RoundedButton.swift; path = "/Users/desiree/Google Drive/Devslopes Class/iOS Projects/Calculator app/RoundedButton.swift"; sourceTree = "<absolute>"; };
+		D735937424917C15002F55BD /* Assets2 .xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Assets2 .xcassets"; path = "/Users/desiree/Google Drive/Devslopes Class/iOS Projects/Calculator app/Assets2 .xcassets"; sourceTree = "<absolute>"; };
 		D786856D246CA12100B2AEC2 /* Calculator app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calculator app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7868570246CA12100B2AEC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "/Users/desiree/Google Drive/iOS Projects/Calculator app/AppDelegate.swift"; sourceTree = "<absolute>"; };
-		D7868572246CA12100B2AEC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = "/Users/desiree/Google Drive/iOS Projects/Calculator app/SceneDelegate.swift"; sourceTree = "<absolute>"; };
-		D7868574246CA12100B2AEC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "/Users/desiree/Google Drive/iOS Projects/Calculator app/ViewController.swift"; sourceTree = "<absolute>"; };
+		D7868570246CA12100B2AEC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "/Users/desiree/Google Drive/Devslopes Class/iOS Projects/Calculator app/AppDelegate.swift"; sourceTree = "<absolute>"; };
+		D7868572246CA12100B2AEC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = "/Users/desiree/Google Drive/Devslopes Class/iOS Projects/Calculator app/SceneDelegate.swift"; sourceTree = "<absolute>"; };
+		D7868574246CA12100B2AEC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "/Users/desiree/Google Drive/Devslopes Class/iOS Projects/Calculator app/ViewController.swift"; sourceTree = "<absolute>"; };
 		D7868577246CA12100B2AEC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D786857C246CA12500B2AEC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D786857E246CA12500B2AEC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		D786857E246CA12500B2AEC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,7 @@
 				D735937424917C15002F55BD /* Assets2 .xcassets */,
 				D786857E246CA12500B2AEC2 /* Info.plist */,
 			);
-			path = "Calculator app";
+			name = "Calculator app";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,7 +157,7 @@
 				D7868577246CA12100B2AEC2 /* Base */,
 			);
 			name = Main.storyboard;
-			path = "/Users/desiree/Google Drive/iOS Projects/Calculator app";
+			path = "/Users/desiree/Google Drive/Devslopes Class/iOS Projects/Calculator app";
 			sourceTree = "<absolute>";
 		};
 		D786857B246CA12500B2AEC2 /* LaunchScreen.storyboard */ = {
