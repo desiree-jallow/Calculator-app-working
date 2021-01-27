@@ -76,6 +76,14 @@ class CalculatorManagerTests: XCTestCase {
         XCTAssertEqual(sut.calculate(), "0.4")
     }
     
+    func testDecimalOperation_ShouldCalculateWithDecimal() {
+        sut.firstNumber = 4.0
+        sut.secondNumber = 8.9
+        sut.operation = .add
+        
+        XCTAssertEqual(sut.calculate(), "12.9")
+    }
+    
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.

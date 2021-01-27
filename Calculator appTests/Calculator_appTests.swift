@@ -29,8 +29,9 @@ class Calculator_appTests: XCTestCase {
     }
     
     func testAddingValues_ShouldUpdateLabel() {
+        calcManager.symbolPressed(number: "2", label: sut.computingLabel)
         
-        calcManager.symbolPressed(number: "25", label: sut.computingLabel)
+        calcManager.symbolPressed(number: "5", label: sut.computingLabel)
         
         XCTAssertEqual(sut.computingLabel.text, "25")
     }
@@ -40,6 +41,15 @@ class Calculator_appTests: XCTestCase {
         XCTAssertEqual(sut.computingLabel.text, "-")
         XCTAssertTrue(calcManager.performingMath, "performing math should be true")
     }
+    
+    func testClearButton_ShouldClearValuesAndUpdateLabel() {
+        calcManager.symbolPressed(number: "7", label: sut.computingLabel)
+        sut.clearButton.sendActions(for: .touchUpInside)
+        XCTAssertEqual(calcManager.firstNumber, 0.0)
+        XCTAssertEqual(calcManager.secondNumber, 0.0)
+        XCTAssertEqual(sut.computingLabel.text, "0")
+    }
+
 
     func testExample() throws {
         // This is an example of a functional test case.

@@ -10,10 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet var computingLabel: UILabel!
-    
     @IBOutlet weak var periodButton: RoundedButton!
-    
     @IBOutlet weak var equalButton: RoundedButton!
+    @IBOutlet weak var clearButton: RoundedButton!
     
     var calculatorManager = CalculatorManager()
     

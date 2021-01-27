@@ -270,6 +270,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="clearButton" destination="CKc-kh-fih" id="VOd-JT-gal"/>
                         <outlet property="computingLabel" destination="gys-Ye-GFN" id="iqB-GL-BOP"/>
                         <outlet property="equalButton" destination="dND-yF-Tkl" id="LkG-3Z-tWQ"/>
                         <outlet property="periodButton" destination="1uE-aO-CXr" id="B1X-jX-KG9"/>
