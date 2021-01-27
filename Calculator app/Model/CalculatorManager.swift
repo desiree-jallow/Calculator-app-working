@@ -8,7 +8,7 @@
 
 import UIKit
 
-struct CalculatorManager {
+struct CalculatorManager: Equatable {
     var operation = Operation.add
     var firstNumber: Double = 0
     var secondNumber: Double = 0
